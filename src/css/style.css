@@ -1,0 +1,300 @@
+body{
+	font-family: Arial, sans-serif;
+}
+
+nav{
+	width: 100%;
+	height: 60px;
+	background-color: #344051;
+}
+
+.logo{
+	color: #fff;
+	font-size: 28px;
+	line-height: 60px;
+	margin-left: 388px;
+	float: left;
+}
+
+.menu{
+	float: left;
+	padding-left: 432px;
+
+}
+.menu li{
+	float: left;
+	line-height: 60px;
+	color: #fff;
+	margin-right: 40px;
+	font-size: 16px;
+	text-transform: uppercase;
+
+}
+.main{
+	width: 100%;
+	height: calc(100% - 60px);
+	background:url(../img/boy.png) 90% 100%/auto 85% no-repeat, url(../img/bg.png) center/cover no-repeat;
+}
+.title__container{
+	float: left;
+	margin: 432px 0px 0px 404px;
+	color: #2c384a;
+	text-align: center;
+	
+}
+
+.title__container h1{
+	font-size: 60px;
+	font-weight: bold;
+}
+
+.title__container h4{
+	margin-top: 40px;
+	font-size: 22px;
+	color: #79818d;
+}
+
+.title__container input{
+	height: 40px;
+	text-align: center;
+	border: 2px solid;
+	color: #6d7682;
+	background: none;
+	border-radius: 5px;
+	font-size: 13px;
+	padding: 0px 16px;
+	margin-top: 58px;
+	margin-right: 28px;
+}
+
+.about{
+	color: #263244;
+	width: 100%;
+	height: 715px;
+	text-align: center;
+
+}
+
+.about h2{
+	padding-top: 108px;
+	font-size: 24px;
+	font-weight: bold;
+	text-transform: uppercase;
+
+}
+
+.about__container img{
+	padding-top: 95px;
+
+}
+
+.about__container p{
+	text-align: center;
+	margin-top: 47px;
+}
+
+.about__container input{
+	height: 40px;
+	text-align: center;
+	border: 2px solid;
+	color: #6d7682;
+	background: none;
+	border-radius: 5px;
+	font-size: 13px;
+	padding: 0px 16px;
+	margin-top: 37px;
+	margin-right: 28px;
+}
+
+.i_can{
+	height: 521px;
+	width: 100%;
+	background: url(../img/bg2.jpg) center/cover no-repeat;
+}
+
+.can_container{
+	color: #263244;
+	text-align: center; 
+}
+
+.web{
+	padding-top:142px;
+	padding-left: 300px;
+}
+
+.can_container h2{
+	padding-top: 107px;
+	font-size: 23px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.web li{
+
+	float: left;
+	margin-right: 40px;
+	font-size: 16px;
+
+}
+
+.web h3{
+	color:#cf7600;
+	font-weight: bold;
+}
+
+.keys{
+	color: #263244;
+	padding-top: 109px;
+	text-align: center;
+}
+
+.keys h2{
+	font-size: 21px;
+	text-transform: uppercase;
+	font-weight: bold;
+	
+}
+
+.keys p{
+	padding-top: 71px;
+	font-weight: bold;
+}
+
+.calculation{
+	color: #1c2534;
+	font-size: 20px;
+	text-align: left;
+	font-weight: bold;
+}
+
+.calculation h2{
+	padding-top: : 50px;
+	font-size:30px; 
+	text-align: center;
+}
+
+.calculation h3{
+	padding-top: : 50px;
+	font-size:25px;
+	padding-bottom: 20px; 
+
+}
+.viborka{
+	padding-left: 700px;
+	margin-bottom: 20px;
+}
+
+.viborka select{
+	height: 40px;
+	width: 500px;
+	box-sizing: border-box; 
+	border: 1px solid #eeeeee;
+	background: #eeeeee;
+}
+.viborka h3{
+	padding-top: 20px;
+	font-weight: bold;
+}
+
+.price1{
+	font-weight: bold;
+	font-size: 20px;
+}
+.price2{
+	font-weight: bold;
+	font-size: 20px;
+	margin-bottom: 150px;
+}
+
+.price1 h3{
+	padding-left: 700px;
+	float: left;
+	padding-right: 430px
+}
+
+.price2 h3{
+	padding-left: 700px;
+	float: left;
+	padding-right: 387px;
+}
+
+.stats {
+	font-size: 22px;
+	font-weight: bold;
+	background: url(../img/bg3.jpg) center/cover no-repeat;
+	height: 521px;
+	width: 100%;
+	padding-left: 500px;
+
+}
+
+.stats_name{
+	font-weight: bold;
+	padding-top: 105px;
+	padding-left: 320px;
+	margin-bottom: 125px; 
+}
+
+.stats li{
+	font-weight: bold;
+	padding-top: 50px;
+	float: left;
+	margin-right: 63px;
+}
+
+.reviews{
+	padding-top: 110px;
+	text-align: center;
+	color: #243042;
+	margin-bottom:95px; 
+}
+
+.reviews h2{
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 100px; 
+}
+
+.reviews p{
+	margin-bottom: 50px;
+}
+
+.contacnts {
+	width: 100%;
+	height: 807px;
+	background: url(../img/bg4.png) center/cover no-repeat;
+	color: #fff;
+}
+
+.cont_name{
+	text-align: center;
+	padding-top: 90px;
+}
+
+.cont_name h2{
+	font-size: 25px;
+	font-weight: bold;
+	margin-bottom: 69px;
+}
+
+.cont li{
+	padding-top: 60px;
+	padding-left: 320px;
+	float: left;
+	line-height: 20px;
+	color: #fff;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+.message{
+	padding-top: 60px;
+	float: left;
+}
+
+.message h3{
+	font-size: 20px;
+	font-weight: bold;
+	padding-left: 350px;
+	margin-bottom: 30px
+}

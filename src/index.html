@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/style.css">
 	<title>Сайт визитка</title>
 </head>
@@ -10,7 +11,7 @@
 
 	<header>
 		<nav>
-			<div class="logo">Александр Кособродов</div>
+			<div class="logo">Андрей Браун</div>
 			<div class="menu"><ul>
 				<li>обо мне</li>
 				<li>услуги</li>
@@ -23,8 +24,8 @@
 	</header>
 
 	<div class="main"><div class="title__container">
-		<h1>Привет<br>Я Александр Кособродов</h1>
-		<h4>я веб-разработчик</h4>
+		<h1>Привет<br>Я Андрей Браун</h1>
+		<h4>Фулл стек веб-разработчик</h4>
 		<input type="submit" value="обо мне">
 		<input type="submit" value="мои работы">
 	</div></div>
@@ -32,10 +33,11 @@
 	<div class="about"><div class="about__container">
 		<h2>Обо мне</h2>
 		<img src="img/photo.png" alt="">
-		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque amet voluptatibus at corrupti? Deserunt unde molestias blanditiis quos molestiae? Natus.</p>
-		<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci ipsum assumenda at incidunt hic veritatis voluptas velit dolorum accusamus nihil.</p>
+		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores incidunt ex dolor nihil perspiciatis sunt. Est repudiandae, hic tenetur <br> cumque numquam iusto obcaecati voluptas animi. Pariatur cupiditate placeat atque cumque maxime doloremque tempore asperiores fuga..</p>
+		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores incidunt ex dolor nihil perspiciatis sunt. Est repudiandae, hic tenetur <br> cumque numquam iusto obcaecati voluptas animi. Pariatur cupiditate placeat atque cumque maxime doloremque tempore asperiores fuga..</p>
 		<input type="submit" value="скачать резюме">
-	</div></div>
+	</div>
+	</div>
 
 	<div class="i_can"><div class="can_container">
 		<h2>Что я умею</h2>
@@ -60,12 +62,14 @@
 				</li>
 			</ul>
 		</div>
+	</div>
+	</div>
 
-		<div class="keys">
-			<h2>Кейсы</h2>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam delectus recusandae, quidem eveniet, ullam inventore soluta quo quasi modi magni?</p>
-			<img src="img/opencloud.png">
-		</div>
+	<div class="keys">
+		<h2>Кейсы</h2>
+		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam delectus recusandae, quidem eveniet, ullam inventore soluta quo quasi modi magni?</p>
+		<img src="img/opencloud.png">
+	</div>
 
 		<div class="calculation">
 		<h2>Расчет стоимости</h2>
@@ -76,25 +80,29 @@
 						<option value="">Выберите пункт</option>
 					</select>
 
-					<h2>Дизайн</h2>
+					<h3>Дизайн</h3>
 					<select>
 						<option value="">Выберите пункт</option>
 					</select>
 
-					<h2>Адаптивность</h2>
+					<h3>Адаптивность</h3>
 					<select>
 						<option value="">Выберите пункт</option>
 					</select>
 				</form>
 			</div>
-			<h3>Сроки</h3>
-			<p>0</p>
-			<h3>Стоимость</h3>
-			<p>0</p>
 		</div>
+	<div class="price1">
+		<h3>Сроки</h3>
+		<p>0</p>
+	</div>
+	<div class="price2">
+		<h3>Стоимость</h3>
+		<p>0</p>
+	</div>
 
 		<div class="stats">
-			<h3>Немного статистики</h3>
+			<div class="stats_name"><h3>Немного статистики</h3></div>
 			<ul>
 				<li>
 					<img src="img/smile.png" alt="">
@@ -129,9 +137,12 @@
 		</div>
 
 		<div class="contacnts">
+			<div class="cont_name">
 			<h2>Мои контакты</h2>
 			<p>Lorem ipsum dolor sit amet, consectetur, adipisicing elit. Corrupti magnam, nulla dicta fugiat officia nobis corporis</p>
-			<ul>
+			</div>
+			
+			<div class="cont"><ul>
 				<li><img src="img/geo.png" alt="">
 					<p>Таганрог</p>
 					<p>Петровская 198</p>
@@ -142,27 +153,18 @@
 				<li><img src="img/phone.png" alt="">
 					<p>+7 999-999-99-99</p>
 				</li>
-			</ul>
-		</div>
+			</ul></div>
+
 
 		<div class="message">
-			<h2>Отправьте мне сообщение</h2>
+			<h3>Отправьте мне сообщение</h3>
 			<form action="#">
 				<input type="text" value placeholder="Имя">
 				<input type="text" value placeholder="mail">
 				<textarea name="name1" id="1" cols="30" rows="10"></textarea>
 				<input type="submit" value="отправить">
 			</form>
-			<div class="ssilki">
-				<ul>
-					<li><img src="img/fb.png" alt=""></li>
-					<li><img src="img/twit.png" alt=""></li>
-					<li><img src="img/ball.png" alt=""></li>
-					<li><img src="img/cat.png" alt=""></li>
-					<li><img src="img/inst.png" alt=""></li>
-					<li><img src="img/in.png" alt=""></li>
-				</ul>
-			</div>
+		</div>
 		</div>
 
 	</div></div>
